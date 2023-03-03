@@ -11,6 +11,7 @@ import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 import 'package:fleetioapp/enums/color_constants.dart';
 import 'package:syncfusion_flutter_datagrid_export/export.dart';
 import '../../../utils/save_file_mobile_desktop.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DashProvider extends ChangeNotifier {
   ApiService apiService = ApiService();
@@ -39,9 +40,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'Vehicle',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -49,9 +50,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'Make',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -59,9 +60,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'Model',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -69,9 +70,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'Type',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -79,9 +80,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'Status',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -89,9 +90,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'VIN/SN',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -99,9 +100,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'License Plate',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
     GridColumn(
@@ -109,9 +110,9 @@ class DashProvider extends ChangeNotifier {
         label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             alignment: Alignment.center,
-            child: const Text(
+            child:  Text(
               'TollTags',
-              style: TextStyle(color: white),
+              style: GoogleFonts.montserrat(color: white),
               overflow: TextOverflow.ellipsis,
             ))),
   ];
